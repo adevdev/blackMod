@@ -1,6 +1,6 @@
 # blackMod by adevdev
 
-Installing this mod is simple: just **replace the original `BLACK.exe`** with the one from the [XBE Recomp](https://github.com/tgp482/black-xberecomp).
+Installing this mod is simple: just **replace the original `BLACK.exe`** with the one from the [XBE Recomp](https://github.com/tgp482/black-xberecomp) and **add `black.dll`** to the same folder.
 
 ## Features
 
@@ -31,26 +31,32 @@ Everything is controlled from the in-game **F5 panel**:
 
 ## Installation
 
-1. **Download** `BLACK.exe` from the [Releases](../../releases) page of this repository.
+1. **Download** both `BLACK.exe` and `black.dll` from the [Releases](../../releases) page of this repository.
 2. **Close** the program completely (also check Task Manager to make sure it is not running).
 3. Open the **installation folder** where the original `BLACK.exe` is located.
 4. **Back up** the original file first: rename it to `BLACK.exe.bak` or copy it somewhere else.
 5. **Copy the downloaded `BLACK.exe`** into the installation folder and choose **Replace the file in the destination** when prompted.
-6. **Run** `BLACK.exe` as usual. The mod is now active.
+6. **Copy `black.dll`** into the same installation folder, right next to `BLACK.exe`.
+7. **Run** `BLACK.exe` as usual. The mod is now active.
+
+> Both files are required. `BLACK.exe` and `black.dll` must be in the same folder, otherwise the mod will not load.
 
 ## Uninstallation
 
 1. Close the program.
-2. Delete the modded `BLACK.exe`.
+2. Delete the modded `BLACK.exe` and `black.dll`.
 3. Restore your backup by renaming `BLACK.exe.bak` back to `BLACK.exe`.
 
 ## Troubleshooting
 
 - **Can't replace the file**: make sure the program is fully closed. If it still fails, run File Explorer as Administrator, or move the installation folder to a location that doesn't require admin permissions.
-- **Blocked by antivirus / Windows SmartScreen**: this is common for custom-built `.exe` files. If you trust the source, choose **More info → Run anyway** or add the file to your antivirus exclusion list.
-- **Doesn't run after installing**: restore the backup file and report the problem via [Issues](../../issues).
+- **Blocked by antivirus / Windows SmartScreen**: this is common for custom-built `.exe` and `.dll` files. If you trust the source, choose **More info → Run anyway** or add the files to your antivirus exclusion list.
+- **`black.dll` is missing or deleted by antivirus**: check your antivirus quarantine, restore `black.dll`, and add the installation folder to the exclusion list.
+- **F5 panel doesn't appear / mod doesn't load**: make sure `black.dll` is in the same folder as `BLACK.exe` and that the file name is spelled correctly.
+- **Doesn't run after installing**: restore the backup file, remove `black.dll`, and report the problem via [Issues](../../issues).
 
 ## Notes
 
 - Always back up the original `BLACK.exe` before replacing it.
+- Always keep `BLACK.exe` and `black.dll` together in the same folder.
 - Use this mod at your own risk.
