@@ -2,6 +2,33 @@
 
 Installing this mod is simple: just **replace the original `BLACK.exe`** with the one from the [XBE Recomp](https://github.com/tgp482/black-xberecomp).
 
+## Features
+
+Everything is controlled from the in-game **F5 panel**:
+
+- **Spawn characters**: spawn enemies next to you (MP5, Machine Gun, Sniper, RPG, UZI Shield, Magnum, Shotgun, Remington, UZI) with a customizable spawn pattern.
+- **Weapons**: give or switch to any weapon class, even if the current level never offers it.
+- **Ammo**: set clip, reload amount, reserve ammo (with lock), or enable unlimited ammo.
+- **Player**: set health, god mode, and walk speed scaling.
+
+## Features Preview
+
+<p align="center">
+  <img src="https://adevdev.com/img/f1.webp" alt="Feature preview 1" width="48%">
+  <img src="https://adevdev.com/img/f2.webp" alt="Feature preview 2" width="48%">
+</p>
+<p align="center">
+  <img src="https://adevdev.com/img/f3.webp" alt="Feature preview 3" width="48%">
+  <img src="https://adevdev.com/img/f4.webp" alt="Feature preview 4" width="48%">
+</p>
+<p align="center">
+  <img src="https://adevdev.com/img/f5.webp" alt="Feature preview 5" width="48%">
+  <img src="https://adevdev.com/img/f6.webp" alt="Feature preview 6" width="48%">
+</p>
+<p align="center">
+  <img src="https://adevdev.com/img/f7.webp" alt="Feature preview 7" width="48%">
+</p>
+
 ## Installation
 
 1. **Download** `BLACK.exe` from the [Releases](../../releases) page of this repository.
